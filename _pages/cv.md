@@ -11,35 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Tianjin, Nankai University, 2022
+* B.S. in Tianjin, Nankai University, 2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* SEPT.2023 - DEC.2023: System Engineer Intern
+  * Zhiyuan Research Institute, Hangzhou
+  * Duties includes: Deployment and optimization of object detecting algorithm on embedded platform
+    * Based on HUAWEI Atlas 200I A2 platform, developed inference application of yolov5 with NPU
+    * Improved end-to-end performance from 20FPS to 30FPS on the embedded platform with multi-threaded pipeline
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* JUL.2021 - SEPT.2021: System Engineer Intern
+  * Alibaba Cloud, Shanghai
+  * Duties included: Security container and OS kernel development with Rust
+    * Developed Linux kernel with Rust. Rewrote the PCIe device registry process in Hypervisor
+    * Realized the passthrough of the PCIe devices and hotplug of NVIDIA GPUs in the security container
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* C/C++
+* CUDA
+* Linux
 
 Publications
 ======
@@ -47,11 +40,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
   
 Teaching
 ======
@@ -59,6 +47,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
