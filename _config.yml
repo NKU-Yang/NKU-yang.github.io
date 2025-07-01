@@ -21,7 +21,7 @@ repository               : "NKU-Yang/Shiyang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "我.png"
+  avatar           : "me.png"
   name             : "Shiyang Li"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
