@@ -35,7 +35,7 @@ _CCF Transactions on High Performance Computing(CCF-THPC)_ 6.2 (2024): 179-191.
 
 **Teaching Assistant**
 
-- Operating System，Fall 2020&2021&2022, Nankai University
+- Operating System, Fall 2020&2021&2022, Nankai University
 - Principles of Computer Organization, Spring 2023, Nankai University
 - Introduction to Parallel Programming, Spring 2022, Nankai University 
 
