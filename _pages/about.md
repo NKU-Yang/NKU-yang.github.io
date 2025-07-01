@@ -6,10 +6,36 @@ redirect_from:
   - /about/
   - /about.html
 ---
+# 👋 Hi, I'm **Shiyang Li(李世阳)**
 
-I'm a PhD student at UMN, school of CSE. My research interests include GPU programming, computer architecture&system. 
+## 💼 ABOUT ME
+I'm currently a PhD student at UMN, school of CSE. I work with [Prof. Caiwen Ding](https://caiwending.github.io/web/home.html) and [Prof. Pen-Chung](https://cse.umn.edu/cs/pen-chung-yew) on research in GPU programming, computer architecture, and computer system optimization. 
 
-I'm very fortunate to be advised by [Prof. Caiwen Ding](https://caiwending.github.io/web/home.html). 
+I am very fortunate to be advised by Prof. Gong Xiaoli during my B.S. and M.S. at Nankai University for 7 years, an incredible experience! 
 
-I was advised by Prof. Gong Xiaoli during my master program at Nankai University.
+## 🔍RESEARCH
+
+My research mainly focuses on computer architecture and GPU programming, especially about GPU memory management, high-efficienct CUDA kernels, and CPU-GPU heterogeneous computing. Recently I'm highly interested in LLM training/inference optimization on GPUs. 
+
+## 📖PUBLICATION
+
+- [**Liberator: A Data Reuse Framework for Out-of Memory Graph Computing on GPUs**](https://ieeexplore.ieee.org/abstract/document/10107428)  
+**Shiyang Li**, Ruiqi Tang, Jingyu Zhu, Ziyi Zhao, Xiaoli Gong, Wenwen Wang, Jin Zhang, Pen-Chung Yew.  
+IEEE Transactions on Parallel and Distributed Systems(TPDS) 34.6 (2023): 1954-1967.
+
+- [**OneGraph: a cross-architecture framework for large-scale graph computing on GPUs based on oneAPI**](https://link.springer.com/article/10.1007/s42514-023-00172-w)  
+**Shiyang Li**, Jingyu Zhu, Jiaxun Han, Yuting Peng, Zhuoran Wang, Xiaoli Gong, Gang Wang, Jin Zhang, Xuqiang Wang.  
+CCF Transactions on High Performance Computing(CCF-THPC) 6.2 (2024): 179-191.
+
+- [**DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs**](https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-76.pdf)  
+Yuebo Luo, **Shiyang Li**, Junran Tao, Kiran Gautam Thorat, Xi Xie, Hongwu Peng, Nuo Xu, Caiwen Ding, Shaoyi Huang.  
+In Proceedings of the 39th ACM International Conference on Supercomputing (ICS ’25). June 8-11, 2025, Salt Lake City, USA.
+
+## 🌱SERVICES
+
+**Teaching Assistant**
+
+- Operating System，Fall 2020&2021&2022, Nankai University
+- Principles of Computer Organization, Spring 2023, Nankai University
+- Introduction to Parallel Programming, Spring 2022, Nankai University 
 
