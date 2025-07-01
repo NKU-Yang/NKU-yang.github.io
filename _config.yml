@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shiyang(Eric) Li"
-title_separator          : "-"
-name                     : &name "Shiyang(Eric) Li"
-description              : &description "graduate student at Nankai University, China"
-url                      : https://Shiyang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "Shiyang Li"
+title_separator          : "Mr"
+name                     : &name "Shiyang Li"
+description              : &description "PhD student at University of Minnesota-Twin Cities"
+url                      : https://NKU-Yang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "NKU-Yang/Shiyang.github.io"
 
@@ -21,20 +21,20 @@ repository               : "NKU-Yang/Shiyang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me.png"
-  name             : "Shiyang(Eric) Li"
+  avatar           : "我.png"
+  name             : "Shiyang Li"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Tianjin, China"
-  employer         : "Nankai University"
+  location         : "Minneapplis, USA"
+  employer         : "University of Minnesota-Twin cities"
   uri              : # URL
-  email            : "eric-li@mail.nankai.edu.cn" 
+  email            : "li004074@umn.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&tzom=-480&user=q7EKI8MAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-3046-0414"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
