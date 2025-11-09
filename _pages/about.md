@@ -15,9 +15,12 @@ I am very fortunate to be advised by [Prof. Gong Xiaoli](https://scholar.google.
 
 ## 🔍RESEARCH
 
-My research mainly focuses on computer architecture and GPU programming, especially about GPU memory management, high-efficienct CUDA kernels, and CPU-GPU heterogeneous computing. Recently I'm highly interested in LLM training/inference optimization on GPUs. 
+My research mainly focuses on computer architecture and GPU programming, especially about GPU memory management, high-efficienct CUDA kernels, and CPU-GPU heterogeneous computing. Recently I'm highly interested in LLM training/inference optimization on GPUs, and AI-Agent system design for CUDA and RTL coding. 
 
+ <span style="color:red;"> **I'm finding highly passionate undergraduate/graduate interns who wants to do some research works in coding Agent design or CUDA programming, if you are interested please email me at li004074@umn.edu or contact [Prof. Ding](https://caiwending.github.io/web/home.html).**  </span>
 ## 📖PUBLICATION
+
+- [**CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization**](https://arxiv.org/abs/2511.02132) Zijian Zhang, Rong Wang, **Shiyang Li**, Yuebo Luo, Mingyi Hone, Caiwen Ding. arXiv preprint arXiv:2511.01884. 2025 Oct 23.
 
 - [**DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs**](https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-76.pdf)  
 Yuebo Luo, **Shiyang Li**, Junran Tao, Kiran Gautam Thorat, Xi Xie, Hongwu Peng, Nuo Xu, Caiwen Ding, Shaoyi Huang.  
@@ -34,8 +37,10 @@ _CCF Transactions on High Performance Computing(CCF-THPC)_ 6.2 (2024): 179-191.
 ## 🌱SERVICES
 
 **Teaching Assistant**
-
-- Operating System, Fall 2020&2021&2022, Nankai University
+- Computer Architecture (CSCI 4203), Fall 2025, University of Minnesota-Twin cities
+- Introduction to Parallel Programming, Spring 2022, Nankai University
 - Principles of Computer Organization, Spring 2023, Nankai University
-- Introduction to Parallel Programming, Spring 2022, Nankai University 
+- Operating System, Fall 2020&2021&2022, Nankai University
+
+
 
