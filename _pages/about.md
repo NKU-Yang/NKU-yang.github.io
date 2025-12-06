@@ -17,7 +17,7 @@ I am very fortunate to be advised by [Prof. Gong Xiaoli](https://scholar.google.
 
 My research mainly focuses on computer architecture and GPU programming, especially about GPU memory management, high-efficienct CUDA kernels, and CPU-GPU heterogeneous computing. Recently I'm highly interested in LLM training/inference optimization on GPUs, and AI-Agent system design for CUDA and RTL coding. 
 
- <span style="color:red;"> **I'm finding highly passionate undergraduate/graduate interns who wants to do some research works in coding Agent design or CUDA programming, if you are interested please email me at li004074@umn.edu or contact [Prof. Ding](https://caiwending.github.io/web/home.html).**  </span>
+ <span style="color:red;"> **I'm finding highly passionate undergraduate/graduate interns who wants to do some research works in coding Agent design, CUDA programming, and Agentic MLSys, if you are interested please email me at li004074@umn.edu.**  </span>
 ## 📖PUBLICATION
 
 - [**CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization**](https://arxiv.org/abs/2511.02132) Zijian Zhang, Rong Wang, **Shiyang Li**, Yuebo Luo, Mingyi Hone, Caiwen Ding. arXiv preprint arXiv:2511.01884. 2025 Oct 23.
