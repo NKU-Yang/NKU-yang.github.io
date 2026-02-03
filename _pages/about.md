@@ -9,16 +9,18 @@ redirect_from:
 # 👋 Hi, I'm **Shiyang Li(李世阳)**
 
 ## 💼 ABOUT ME
-I'm currently a PhD student at UMN, school of CSE. I work with [Prof. Caiwen Ding](https://caiwending.github.io/web/home.html) and [Prof. Pen-Chung Yew](https://cse.umn.edu/cs/pen-chung-yew) on research in GPU programming, computer architecture, and computer system optimization. 
+I'm currently a PhD student at UMN, school of CSE. I work with [Prof. Caiwen Ding](https://caiwending.github.io/web/home.html) and [Prof. Pen-Chung Yew](https://cse.umn.edu/cs/pen-chung-yew) on research in GPU programming, computer architecture, and Agentic machine learning system. 
 
 I am very fortunate to be advised by [Prof. Gong Xiaoli](https://scholar.google.com/citations?user=KZDQTBQAAAAJ&hl=en) during my B.S. and M.S. at Nankai University for 7 years, an incredible experience! 
 
 ## 🔍RESEARCH
 
-My research mainly focuses on computer architecture and GPU programming, especially about GPU memory management, high-efficienct CUDA kernels, and CPU-GPU heterogeneous computing. Recently I'm highly interested in LLM training/inference optimization on GPUs, and AI-Agent system design for CUDA and RTL coding. 
+My research mainly focuses on computer architecture and GPU programming, especially about GPU memory management, high-efficienct CUDA kernels, and CPU-GPU heterogeneous computing. Recently I'm highly interested in LLM training/inference optimization on GPUs, Agentic MLSys, and Agentic EDA framework. 
 
  <span style="color:red;"> **I'm finding highly passionate undergraduate/graduate interns who wants to do some research works in coding Agent design, CUDA programming, and Agentic MLSys, if you are interested please email me at li004074@umn.edu.**  </span>
 ## 📖PUBLICATION
+
+- [**XuanJia: A Comprehensive Virtualization-Based Code Obfuscator for Binary Protection**](https://arxiv.org/abs/2601.10261) Xianyu Zou, Xiaoli Gong, Jin Zhang, **Shiyang Li**, Pen-Chung Yew. arXiv preprint arXiv: 2601.10261. 2026 Jan 15.
 
 - [**CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization**](https://arxiv.org/abs/2511.02132) Zijian Zhang, Rong Wang, **Shiyang Li**, Yuebo Luo, Mingyi Hone, Caiwen Ding. arXiv preprint arXiv:2511.01884. 2025 Oct 23.
 
