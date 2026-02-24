@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Shiyang Li"
-title_separator          : "Mr"
+title_separator          : "-"
 name                     : &name "Shiyang Li"
 description              : &description "PhD student at University of Minnesota-Twin Cities"
 url                      : https://NKU-Yang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -25,8 +25,8 @@ author:
   name             : "Shiyang Li"
   pronouns         : # example: "she/her"  
   bio              : "PhD student at University of Minnesota-Twin Cities"
-  location         : "Minneapplis, USA"
-  employer         : "University of Minnesota-Twin cities"
+  location         : "Minneapolis, USA"
+  employer         : "University of Minnesota-Twin Cities"
   uri              : # URL
   email            : "li004074@umn.edu" 
 

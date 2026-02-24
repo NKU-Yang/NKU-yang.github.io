@@ -1,0 +1,155 @@
+%-------------------------
+% CV - Shiyang Li
+% Compile with: pdflatex cv.tex
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+% Colors
+\definecolor{linkblue}{HTML}{0066CC}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue,
+}
+
+% Page style
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+% Remove paragraph indent
+\setlength{\parindent}{0pt}
+
+% Custom commands
+\newcommand{\entry}[4]{%
+  \textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4} \\[4pt]
+}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge\bfseries Shiyang Li} \\[2pt]
+    {\large 李世阳} \\[8pt]
+    Ph.D. Student, Department of Computer Science \& Engineering \\
+    University of Minnesota-Twin Cities \\[4pt]
+    \href{mailto:li004074@umn.edu}{li004074@umn.edu} \quad $\vert$ \quad
+    \href{https://NKU-Yang.github.io}{NKU-Yang.github.io} \quad $\vert$ \quad
+    \href{https://github.com/NKU-Yang}{GitHub} \quad $\vert$ \quad
+    \href{https://scholar.google.com/citations?hl=en&user=q7EKI8MAAAAJ}{Google Scholar} \\
+    \href{https://orcid.org/0000-0003-3046-0414}{ORCID: 0000-0003-3046-0414}
+\end{center}
+
+%----------RESEARCH INTERESTS----------
+\section{Research Interests}
+
+GPU programming and memory management, high-efficiency CUDA kernel design, CPU-GPU heterogeneous computing, LLM training/inference optimization, agentic MLSys, and agentic EDA frameworks.
+
+%----------EDUCATION----------
+\section{Education}
+
+\entry{University of Minnesota-Twin Cities}{Minneapolis, MN, USA}
+      {Ph.D. in Computer Science}{2025 -- Present}
+\begin{itemize}[nosep, leftmargin=1.5em]
+    \item Advisors: Prof.\ Caiwen Ding and Prof.\ Pen-Chung Yew
+\end{itemize}
+\vspace{4pt}
+
+\entry{Nankai University}{Tianjin, China}
+      {M.S. in Computer Science}{2022 -- 2025}
+\begin{itemize}[nosep, leftmargin=1.5em]
+    \item Advisor: Prof.\ Gong Xiaoli
+\end{itemize}
+\vspace{4pt}
+
+\entry{Nankai University}{Tianjin, China}
+      {B.S. in Computer Science}{2018 -- 2022}
+
+%----------PUBLICATIONS----------
+\section{Publications}
+
+\begin{enumerate}[leftmargin=1.5em, label={[\arabic*]}]
+
+    \item Xianyu Zou, Xiaoli Gong, Jin Zhang, \textbf{Shiyang Li}, Pen-Chung Yew.
+    ``\href{https://arxiv.org/abs/2601.10261}{XuanJia: A Comprehensive Virtualization-Based Code Obfuscator for Binary Protection}.''
+    \textit{arXiv preprint arXiv:2601.10261}, January 2026.
+
+    \item Zijian Zhang, Rong Wang, \textbf{Shiyang Li}, Yuebo Luo, Mingyi Hone, Caiwen Ding.
+    ``\href{https://arxiv.org/abs/2511.02132}{CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization}.''
+    \textit{arXiv preprint arXiv:2511.01884}, October 2025.
+
+    \item Yuebo Luo, \textbf{Shiyang Li}, Junran Tao, Kiran Gautam Thorat, Xi Xie, Hongwu Peng, Nuo Xu, Caiwen Ding, Shaoyi Huang.
+    ``\href{https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-76.pdf}{DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs}.''
+    In \textit{Proceedings of the 39th ACM International Conference on Supercomputing (ICS '25)}, June 2025, Salt Lake City, USA.
+
+    \item \textbf{Shiyang Li}, Ruiqi Tang, Jingyu Zhu, Ziyi Zhao, Xiaoli Gong, Wenwen Wang, Jin Zhang, Pen-Chung Yew.
+    ``\href{https://ieeexplore.ieee.org/abstract/document/10107428}{Liberator: A Data Reuse Framework for Out-of-Memory Graph Computing on GPUs}.''
+    \textit{IEEE Transactions on Parallel and Distributed Systems (TPDS)}, 34(6): 1954--1967, 2023.
+
+    \item \textbf{Shiyang Li}, Jingyu Zhu, Jiaxun Han, Yuting Peng, Zhuoran Wang, Xiaoli Gong, Gang Wang, Jin Zhang, Xuqiang Wang.
+    ``\href{https://link.springer.com/article/10.1007/s42514-023-00172-w}{OneGraph: A Cross-Architecture Framework for Large-Scale Graph Computing on GPUs Based on oneAPI}.''
+    \textit{CCF Transactions on High Performance Computing (CCF-THPC)}, 6(2): 179--191, 2024.
+
+\end{enumerate}
+
+%----------WORK EXPERIENCE----------
+\section{Work Experience}
+
+\entry{System Engineer Intern}{Sept. 2023 -- Dec. 2023}
+      {Zhiyuan Research Institute}{Hangzhou, China}
+\begin{itemize}[nosep, leftmargin=1.5em]
+    \item Deployed and optimized object detection algorithms on embedded platforms
+    \item Developed AI inference applications with NPU
+    \item Improved end-to-end performance from 20 FPS to 30 FPS using multi-thread pipeline optimization
+\end{itemize}
+\vspace{4pt}
+
+\entry{System Engineer Intern}{Jul. 2021 -- Sept. 2021}
+      {Alibaba Cloud}{Shanghai, China}
+\begin{itemize}[nosep, leftmargin=1.5em]
+    \item Developed Linux kernel modules with Rust for security containers
+    \item Rewrote the PCIe device registry process in Hypervisor
+    \item Implemented PCIe device passthrough and hot-plug support for NVIDIA GPUs in security containers
+\end{itemize}
+
+%----------TEACHING----------
+\section{Teaching Experience}
+
+\textbf{Teaching Assistant} \\[4pt]
+\begin{tabularx}{\textwidth}{Xl}
+    Computer Architecture (CSCI 4203), University of Minnesota-Twin Cities & Fall 2025 \\
+    Principles of Computer Organization, Nankai University & Spring 2023 \\
+    Introduction to Parallel Programming, Nankai University & Spring 2022 \\
+    Operating System, Nankai University & Fall 2020, 2021, 2022 \\
+\end{tabularx}
+
+%----------SKILLS----------
+\section{Technical Skills}
+
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+    \textbf{Programming Languages:} & C/C++, CUDA, Python, Rust \\
+    \textbf{Systems:} & Linux kernel development, GPU programming, embedded systems \\
+    \textbf{Tools:} & Git, \LaTeX, Docker \\
+\end{tabularx}
+
+\end{document}
