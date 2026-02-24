@@ -42,12 +42,6 @@ redirect_from:
 
 ## Work Experience
 
-* **Sept. 2023 - Dec. 2023: System Engineer Intern**
-  * Zhiyuan Research Institute, Hangzhou
-  * Deployed and optimized object detection algorithms on embedded platforms
-  * Developed AI inference applications with NPU
-  * Improved end-to-end performance from 20 FPS to 30 FPS using multi-thread pipeline optimization
-
 * **Jul. 2021 - Sept. 2021: System Engineer Intern**
   * Alibaba Cloud, Shanghai
   * Developed Linux kernel modules with Rust for security containers
