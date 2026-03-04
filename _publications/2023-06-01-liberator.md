@@ -10,6 +10,7 @@ paperurl: "https://ieeexplore.ieee.org/abstract/document/10107428"
 citation: '<b>S. Li</b>, R. Tang, J. Zhu, Z. Zhao, X. Gong, W. Wang, J. Zhang, P.-C. Yew. &quot;Liberator: A Data Reuse Framework for Out-of-Memory Graph Computing on GPUs.&quot; <i>IEEE Transactions on Parallel and Distributed Systems (TPDS)</i>, 34(6): 1954-1967, 2023.'
 header:
   teaser: "publications/liberator.png"
+  teaser_side: true
 ---
 
 ## Abstract
