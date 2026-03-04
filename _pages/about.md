@@ -27,6 +27,10 @@ Recently, I have been working on **LLM training/inference optimization on GPUs**
 
 ## Publications
 
+- [**StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning**](https://arxiv.org/abs/2603.02637)
+  **Shiyang Li**, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, Caiwen Ding.
+  *arXiv preprint arXiv:2603.02637.* March 2026.
+
 - [**XuanJia: A Comprehensive Virtualization-Based Code Obfuscator for Binary Protection**](https://arxiv.org/abs/2601.10261)
   Xianyu Zou, Xiaoli Gong, Jin Zhang, **Shiyang Li**, Pen-Chung Yew.
   *arXiv preprint arXiv:2601.10261.* January 2026.
