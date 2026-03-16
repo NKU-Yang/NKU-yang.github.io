@@ -10,7 +10,7 @@ redirect_from:
 
 ## About Me
 
-I'm a PhD student in the Department of Computer Science & Engineering at the **University of Minnesota-Twin Cities**. I work with [Prof. Caiwen Ding](https://caiwending.github.io/web/home.html) and [Prof. Pen-Chung Yew](https://cse.umn.edu/cs/pen-chung-yew) on research in GPU programming, computer architecture, and agentic machine learning systems.
+I'm a PhD student in the Department of Computer Science & Engineering at the **University of Minnesota-Twin Cities**. I work with [Prof. Caiwen Ding](https://caiwending.github.io) and [Prof. Pen-Chung Yew](https://cse.umn.edu/cs/pen-chung-yew) on research in GPU programming, computer architecture, and agentic machine learning systems.
 
 I was fortunate to be advised by [Prof. Gong Xiaoli](https://scholar.google.com/citations?user=KZDQTBQAAAAJ&hl=en) during my B.S. and M.S. at Nankai University, where I spent 7 wonderful years.
 
