@@ -39,7 +39,7 @@ Recently, I have been working on **LLM training/inference optimization on GPUs**
   Xianyu Zou, Xiaoli Gong, Jin Zhang, **Shiyang Li**, Pen-Chung Yew.
   *arXiv preprint arXiv:2601.10261.* January 2026.
 
-- [**CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization**](https://arxiv.org/abs/2511.02132)
+- [**CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization**](https://arxiv.org/abs/2511.01884)
   Zijian Zhang, Rong Wang, **Shiyang Li**, Yuebo Luo, Mingyi Hone, Caiwen Ding.
   *arXiv preprint arXiv:2511.01884.* October 2025.
 
