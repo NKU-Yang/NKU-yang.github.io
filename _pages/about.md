@@ -31,9 +31,9 @@ Recently, I have been working on **LLM training/inference optimization on GPUs**
   Yuebo Luo, **Shiyang Li**, Yifei Feng, Vishal Kancharla, Shaoyi Huang, Caiwen Ding.
   *In Proceedings of the 63rd ACM/IEEE Design Automation Conference (DAC '26).* June 2026, San Francisco, USA.
 
-- [**StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning**](https://arxiv.org/abs/2511.01884)
+- [**StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning**](https://arxiv.org/abs/2603.02637)
   **Shiyang Li**, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, Caiwen Ding.
-  *arXiv preprint arXiv:2603.02637.* March 2026.
+  *Accepted to the International Conference on Machine Learning (ICML 2026).* 2026.
 
 - [**XuanJia: A Comprehensive Virtualization-Based Code Obfuscator for Binary Protection**](https://arxiv.org/abs/2601.10261)
   Xianyu Zou, Xiaoli Gong, Jin Zhang, **Shiyang Li**, Pen-Chung Yew.

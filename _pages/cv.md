@@ -25,19 +25,22 @@ redirect_from:
 
 ## Publications
 
-1. **XuanJia: A Comprehensive Virtualization-Based Code Obfuscator for Binary Protection**
+1. **StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning**
+   **S. Li**, Z. Zhang, W. Chen, Y. Luo, M. Hong, C. Ding. *International Conference on Machine Learning (ICML 2026)*, accepted.
+
+2. **XuanJia: A Comprehensive Virtualization-Based Code Obfuscator for Binary Protection**
    X. Zou, X. Gong, J. Zhang, **S. Li**, P.-C. Yew. *arXiv:2601.10261*, 2026.
 
-2. **CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization**
+3. **CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization**
    Z. Zhang, R. Wang, **S. Li**, Y. Luo, M. Hone, C. Ding. *arXiv:2511.01884*, 2025.
 
-3. **DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs**
+4. **DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs**
    Y. Luo, **S. Li**, J. Tao, K. G. Thorat, X. Xie, H. Peng, N. Xu, C. Ding, S. Huang. *ICS '25*, 2025.
 
-4. **Liberator: A Data Reuse Framework for Out-of-Memory Graph Computing on GPUs**
+5. **Liberator: A Data Reuse Framework for Out-of-Memory Graph Computing on GPUs**
    **S. Li**, R. Tang, J. Zhu, Z. Zhao, X. Gong, W. Wang, J. Zhang, P.-C. Yew. *IEEE TPDS* 34.6 (2023): 1954-1967.
 
-5. **OneGraph: A Cross-Architecture Framework for Large-Scale Graph Computing on GPUs Based on oneAPI**
+6. **OneGraph: A Cross-Architecture Framework for Large-Scale Graph Computing on GPUs Based on oneAPI**
    **S. Li**, J. Zhu, J. Han, Y. Peng, Z. Wang, X. Gong, G. Wang, J. Zhang, X. Wang. *CCF-THPC* 6.2 (2024): 179-191.
 
 ## Work Experience
