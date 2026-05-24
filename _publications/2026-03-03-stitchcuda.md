@@ -7,6 +7,7 @@ excerpt: "Accepted to ICML 2026. StitchCUDA is a multi-agent framework for end-t
 date: 2026-03-03
 venue: "International Conference on Machine Learning (ICML 2026)"
 paperurl: "https://arxiv.org/abs/2603.02637"
+codeurl: "https://github.com/NKU-Yang/StitchCUDA"
 header:
   teaser: "publications/stitchCUDA.png"
 citation: '<b>S. Li</b>, Z. Zhang, W. Chen, Y. Luo, M. Hong, C. Ding. &quot;StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning.&quot; <i>International Conference on Machine Learning (ICML)</i>, 2026.'

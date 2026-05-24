@@ -31,7 +31,7 @@ Recently, I have been working on **LLM training/inference optimization on GPUs**
   Yuebo Luo, **Shiyang Li**, Yifei Feng, Vishal Kancharla, Shaoyi Huang, Caiwen Ding.
   *In Proceedings of the 63rd ACM/IEEE Design Automation Conference (DAC '26).* June 2026, San Francisco, USA.
 
-- [**StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning**](https://arxiv.org/abs/2603.02637)
+- [**StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning**](https://arxiv.org/abs/2603.02637) [[Code](https://github.com/NKU-Yang/StitchCUDA)]
   **Shiyang Li**, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, Caiwen Ding.
   *Accepted to the International Conference on Machine Learning (ICML 2026).* 2026.
 
@@ -47,7 +47,7 @@ Recently, I have been working on **LLM training/inference optimization on GPUs**
   Yuebo Luo, **Shiyang Li**, Junran Tao, Kiran Gautam Thorat, Xi Xie, Hongwu Peng, Nuo Xu, Caiwen Ding, Shaoyi Huang.
   *In Proceedings of the 39th ACM International Conference on Supercomputing (ICS '25).* June 2025, Salt Lake City, USA.
 
-- [**Liberator: A Data Reuse Framework for Out-of-Memory Graph Computing on GPUs**](https://ieeexplore.ieee.org/abstract/document/10107428)
+- [**Liberator: A Data Reuse Framework for Out-of-Memory Graph Computing on GPUs**](https://ieeexplore.ieee.org/abstract/document/10107428) [[Code](https://github.com/NKU-Yang/Liberator)]
   **Shiyang Li**, Ruiqi Tang, Jingyu Zhu, Ziyi Zhao, Xiaoli Gong, Wenwen Wang, Jin Zhang, Pen-Chung Yew.
   *IEEE Transactions on Parallel and Distributed Systems (TPDS)* 34.6 (2023): 1954-1967.
 

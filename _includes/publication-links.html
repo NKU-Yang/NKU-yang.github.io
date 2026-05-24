@@ -1,0 +1,17 @@
+{%- assign item = include.item -%}
+{% assign separator = "" %}
+{% capture publication_links %}
+{% if item.paperurl %}<a href="{{ item.paperurl }}">Download Paper</a>{% assign separator = " | " %}{% endif %}{% if item.slidesurl %}{{ separator }}<a href="{{ item.slidesurl }}">Download Slides</a>{% assign separator = " | " %}{% endif %}{% if item.codeurl %}{{ separator }}<a href="{{ item.codeurl }}">Code</a>{% endif %}
+{% endcapture %}
+{% assign publication_links = publication_links | strip %}
+
+{%- if item.citation or publication_links != "" -%}
+  <p{% if include.style %} style="{{ include.style }}"{% endif %}>
+    {%- if item.citation -%}
+      {%- if include.prefix -%}Recommended citation: {% endif -%}{{ item.citation }}
+      {%- if publication_links != "" -%}<br />{{ publication_links }}{%- endif -%}
+    {%- else -%}
+      {{ publication_links }}
+    {%- endif -%}
+  </p>
+{%- endif -%}
