@@ -7,7 +7,7 @@ excerpt: "CudaForge is an agentic framework that automatically optimizes CUDA ke
 date: 2025-10-23
 venue: "arXiv preprint"
 paperurl: "https://arxiv.org/abs/2511.02132"
-citation: 'Z. Zhang, R. Wang, <b>S. Li</b>, Y. Luo, M. Hone, C. Ding. &quot;CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization.&quot; <i>arXiv preprint arXiv:2511.01884</i>, 2025.'
+citation: 'Z. Zhang, R. Wang, <b>S. Li</b>, Y. Luo, M. Hong, C. Ding. &quot;CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization.&quot; <i>arXiv preprint arXiv:2511.01884</i>, 2025.'
 header:
   teaser: "publications/cudaforge.png"
 ---
@@ -24,6 +24,6 @@ We propose **CudaForge**, an agentic framework that automatically optimizes CUDA
 
 ## Authors
 
-Zijian Zhang, Rong Wang, **Shiyang Li**, Yuebo Luo, Mingyi Hone, Caiwen Ding
+Zijian Zhang, Rong Wang, **Shiyang Li**, Yuebo Luo, Mingyi Hong, Caiwen Ding
 
 ![CudaForge Framework](/images/publications/cudaforge.png){: .align-center style="max-width: 100%;"}

@@ -15,9 +15,26 @@
 \usepackage{fancyhdr}
 \usepackage{xcolor}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
 \usepackage{tcolorbox}
 \usepackage{multicol}
+
+\IfFileExists{fontawesome5.sty}{%
+  \usepackage{fontawesome5}
+}{%
+  \newcommand{\faEnvelope}{}
+  \def\faMapMarker*{}
+  \newcommand{\faGithub}{}
+  \newcommand{\faGlobe}{}
+  \newcommand{\faGraduationCap}{}
+  \newcommand{\faOrcid}{}
+  \newcommand{\faChevronRight}{\textbullet}
+  \newcommand{\faUniversity}{}
+  \newcommand{\faBook}{}
+  \newcommand{\faFlask}{}
+  \newcommand{\faChalkboardTeacher}{}
+  \newcommand{\faBriefcase}{}
+  \newcommand{\faTrophy}{}
+}
 
 % Colors — match the old CV teal/navy
 \definecolor{sectioncolor}{HTML}{2B4C7E}
@@ -64,7 +81,6 @@
 %----------HEADING----------
 {\LARGE\bfseries\color{darktext} Shiyang Li}\vspace{4pt}\\
 {\small
-  \faPhone\ \ li004074@umn.edu \quad
   \faEnvelope\ \ \href{mailto:li004074@umn.edu}{li004074@umn.edu} \quad
   \faMapMarker*\ \ Minneapolis, MN, USA \quad
   \faGithub\ \ \href{https://github.com/NKU-Yang}{github.com/NKU-Yang}
@@ -75,7 +91,7 @@
   \faOrcid\ \ \href{https://orcid.org/0000-0003-3046-0414}{0000-0003-3046-0414}
 }\\[2pt]
 {\small
-  \textbf{Interests:}\ \ GPU Programming, Computer Architecture, Agentic MLSys, LLM Optimization\\
+  \textbf{Interests:}\ \ GPU Programming, Computer Architecture, Agentic MLSys, EDA, LLM Optimization\\
   \textbf{Skills:}\ \ C/C++, CUDA, Python, Rust, Linux, Git
 }
 
@@ -100,15 +116,31 @@
 
 \begin{itemize}[leftmargin=1.2em, label=\textcolor{sectioncolor}{\small\faChevronRight}, itemsep=5pt]
 
+  \item Yuebo Luo, \textbf{Li Shiyang}, Yifei Feng, Vishal Kancharla, Shaoyi Huang, Caiwen Ding,\\
+  ``\textbf{GSR-GNN: Training Acceleration and Memory-Saving Framework of Deep GNNs on Circuit Graph}''\\
+  \textit{In Proceedings of the 63rd ACM/IEEE Design Automation Conference (DAC '26)}, June 2026, San Francisco, USA.
+
   \item \textbf{Li Shiyang}, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, Caiwen Ding,\\
   ``\textbf{StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning}''\\
-  \textit{International Conference on Machine Learning (ICML 2026)}, accepted.
+  \textit{International Conference on Machine Learning (ICML 2026)}, accepted. arXiv:2603.02637.
 
-  \item Xianyu Zou, Xiaoli Gong, Jin Zhang, \textbf{Li Shiyang}, Pen-Chung Yew,\\
-  ``\textbf{XuanJia: A Comprehensive Virtualization-Based Code Obfuscator for Binary Protection}''\\
-  \textit{arXiv preprint arXiv:2601.10261}, Jan.\ 2026.
+  \item \textbf{Li Shiyang}, Guangyan Sun, Jinwei Tang, Yanzhi Wang, Mingyi Hong, Caiwen Ding,\\
+  ``\textbf{SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System}''\\
+  \textit{Preprint}, Aug.\ 2026.
 
-  \item Zijian Zhang, Rong Wang, \textbf{Li Shiyang}, Yuebo Luo, Mingyi Hone, Caiwen Ding,\\
+  \item \textbf{Li Shiyang}, Haoyang Chen, Mattia Fazzini, Caiwen Ding,\\
+  ``\textbf{CUDABeaver: Benchmarking LLM-Based Automated CUDA Debugging}''\\
+  \textit{arXiv preprint arXiv:2605.08455}, May 2026.
+
+  \item \textbf{Li Shiyang}, Zijian Zhang, Guangyan Sun, Yuebo Luo, Winson Chen, Yanzhi Wang, Mingyi Hong, Caiwen Ding,\\
+  ``\textbf{CUDAHercules: Benchmarking Hardware-Aware Expert-level CUDA Optimization for LLMs}''\\
+  \textit{arXiv preprint arXiv:2605.08467}, May 2026.
+
+  \item Ben Mechels, Ryan Billmeyer, Alexander Chen, \textbf{Li Shiyang}, Caiwen Ding,\\
+  ``\textbf{FPTC: A Fast Parallel Transform-based Codec for Efficient Asymmetric Signal Compression}''\\
+  \textit{arXiv preprint arXiv:2605.01086}, May 2026.
+
+  \item Zijian Zhang, Rong Wang, \textbf{Li Shiyang}, Yuebo Luo, Mingyi Hong, Caiwen Ding,\\
   ``\textbf{CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization}''\\
   \textit{arXiv preprint arXiv:2511.01884}, Oct.\ 2025.
 
@@ -131,31 +163,30 @@
 
 \begin{itemize}[leftmargin=1.2em, label=\textcolor{sectioncolor}{\small\faChevronRight}, itemsep=6pt]
 
-  \item \textbf{CudaForge: LLM Agent for CUDA Kernel Optimization} \hfill \textbf{Advisor: Prof.\ Caiwen Ding}\\
-  \textbf{Agentic Framework with Hardware Feedback} \hfill MAY.2025 -- Present\\[2pt]
-  \tag{Agentic MLSys}\enspace \tag{CUDA Optimization}\enspace \tag{LLM Agent}\enspace \tag{GPU Profiling}\\[2pt]
+  \item \textbf{CUDA Agentic Systems for GPU Programming and Optimization} \hfill \textbf{Advisor: Prof.\ Caiwen Ding}\\
+  \textbf{Related publications: StitchCUDA, SparseDitto, CUDAHercules, CUDABeaver, CudaForge} \hfill MAY.2025 -- Present\\[2pt]
+  \tag{Agentic MLSys}\enspace \tag{CUDA Programming}\enspace \tag{CUDA Optimization}\enspace \tag{GPU Profiling}\\[2pt]
   \begin{itemize}[nosep, leftmargin=1em, label={\textemdash}]
-    \item Designed an LLM-agent-based framework for automatic CUDA kernel optimization.
-    \item Integrated real-time GPU profiling feedback into the agent's optimization loop.
-    \item Achieved significant speedups across a range of computational kernels.
+    \item Led multi-agent workflows for end-to-end CUDA program generation, optimization, verification, and profiling.
+    \item Incorporated rubric-based agentic reinforcement learning and hardware feedback to improve CUDA optimization quality.
+    \item Built benchmarks for LLM-based CUDA debugging and expert-level hardware-aware CUDA optimization.
   \end{itemize}
 
-  \item \textbf{Visiting Scholar at University of Minnesota-Twin Cities} \hfill \textbf{Advisor: Prof.\ Yew Pen-Chung}\\
-  \textbf{Large-scale Dynamic Temporal Graph Computing on Distributed Multi-GPUs} \hfill NOV.2024 -- MAR.2025\\[2pt]
-  \tag{Temporal Graph Computing}\enspace \tag{Distributed and parallel computing}\enspace \tag{Memory management}\\[2pt]
+  \item \textbf{GPU Graph Computing and EDA-Oriented GNN Acceleration} \hfill \textbf{Advisors: Prof.\ Caiwen Ding, Prof.\ Gong Xiaoli, Prof.\ Pen-Chung Yew}\\
+  \textbf{Related publications: GSR-GNN, DR-CircuitGNN, Liberator, OneGraph} \hfill 2021 -- Present\\[2pt]
+  \tag{Graph Computing}\enspace \tag{EDA}\enspace \tag{GNN Acceleration}\enspace \tag{GPU Memory Management}\\[2pt]
   \begin{itemize}[nosep, leftmargin=1em, label={\textemdash}]
-    \item High-performance graph computing framework based on CPU-GPU system.
-    \item Design of efficient incremental computing method and storage format for dynamic temporal graph.
-    \item Design of temporal graph partitioning method for the distributed system.
+    \item Developed GPU-accelerated graph and GNN systems for circuit graph learning and heterogeneous circuit graph workloads.
+    \item Designed data reuse and memory-management techniques for out-of-memory graph computing on GPUs.
+    \item Explored cross-architecture graph computing with oneAPI and large-scale dynamic temporal graph processing on distributed multi-GPUs.
   \end{itemize}
 
-  \item \textbf{Design of Micro-service Framework for Heterogeneous Embedded Cluster} \hfill DEC.2023 -- MAY.2024\\[2pt]
-  \tag{Heterogeneous Computing}\enspace \tag{Embedded cluster}\enspace \tag{Mobile cloud computing}\enspace \tag{Micro-service}\\[2pt]
+  \item \textbf{GPU-Accelerated Signal Compression} \hfill \textbf{Advisor: Prof.\ Caiwen Ding}\\
+  \textbf{Related publication: FPTC} \hfill 2026\\[2pt]
+  \tag{Parallel Compression}\enspace \tag{GPU Decoder}\enspace \tag{Signal Processing}\\[2pt]
   \begin{itemize}[nosep, leftmargin=1em, label={\textemdash}]
-    \item Integrated multiple heterogeneous SoCs onto a single PCB to form a portable, mobile embedded cluster.
-    \item Developed a micro-service framework for the heterogeneous embedded cluster.
-    \item Dynamic scheduling and auto-scaling approach of heterogeneous computing resources.
-    \item Collaborative AI model inference with multiple SoCs.
+    \item Contributed to a high-throughput asymmetric signal codec with a lightweight encoder and massively parallel GPU decoder.
+    \item Optimized transform-based decompression throughput while preserving reconstruction quality across multiple signal domains.
   \end{itemize}
 
 \end{itemize}
@@ -181,15 +212,6 @@
 
 %----------WORK EXPERIENCE----------
 \section{\faBriefcase\hspace{6pt}Work Experience}
-
-\textbf{Zhiyuan Research Institute, Hangzhou, China}\\
-System Engineer Intern \hfill SEPT.2023 -- DEC.2023\\
-\textit{Deployment and optimization of object detection algorithms on embedded platforms}
-\begin{itemize}[nosep, leftmargin=1.2em, label=\textcolor{sectioncolor}{\small\faChevronRight}]
-  \item Developed AI inference applications with NPU on embedded platforms.
-  \item Improved end-to-end performance from 20\,FPS to 30\,FPS with multi-thread pipeline optimization.
-\end{itemize}
-\vspace{6pt}
 
 \textbf{Alibaba Cloud, Shanghai, China}\\
 System Engineer Intern \hfill JUL.2021 -- SEPT.2021\\

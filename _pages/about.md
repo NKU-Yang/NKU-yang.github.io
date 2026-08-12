@@ -27,6 +27,10 @@ Recently, I have been working on **LLM training/inference optimization on GPUs**
 
 ## Publications
 
+- [**SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System**](/files/SparseDitto.pdf)
+  **Shiyang Li**, Guangyan Sun, Jinwei Tang, Yanzhi Wang, Mingyi Hong, Caiwen Ding.
+  *Preprint.* August 2026.
+
 - [**GSR-GNN: Training Acceleration and Memory-Saving Framework of Deep GNNs on Circuit Graph**](/files/GSR-GNN.pdf)
   Yuebo Luo, **Shiyang Li**, Yifei Feng, Vishal Kancharla, Shaoyi Huang, Caiwen Ding.
   *In Proceedings of the 63rd ACM/IEEE Design Automation Conference (DAC '26).* June 2026, San Francisco, USA.
@@ -35,12 +39,24 @@ Recently, I have been working on **LLM training/inference optimization on GPUs**
   **Shiyang Li**, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, Caiwen Ding.
   *Accepted to the International Conference on Machine Learning (ICML 2026).* 2026.
 
+- [**CUDABeaver: Benchmarking LLM-Based Automated CUDA Debugging**](https://arxiv.org/abs/2605.08455) [[Code](https://github.com/HaoyangChen23/CUDABeaver)]
+  **Shiyang Li**\*, Haoyang Chen\*, Mattia Fazzini, Caiwen Ding.
+  *arXiv preprint arXiv:2605.08455.* May 2026.
+
+- [**CUDAHercules: Benchmarking Hardware-Aware Expert-level CUDA Optimization for LLMs**](https://arxiv.org/abs/2605.08467)
+  **Shiyang Li**, Zijian Zhang, Guangyan Sun, Yuebo Luo, Winson Chen, Yanzhi Wang, Mingyi Hong, Caiwen Ding.
+  *arXiv preprint arXiv:2605.08467.* May 2026.
+
+- [**FPTC: A Fast Parallel Transform-based Codec for Efficient Asymmetric Signal Compression**](https://arxiv.org/abs/2605.01086)
+  Ben Mechels, Ryan Billmeyer, Alexander Chen, **Shiyang Li**, Caiwen Ding.
+  *arXiv preprint arXiv:2605.01086.* May 2026.
+
 - [**XuanJia: A Comprehensive Virtualization-Based Code Obfuscator for Binary Protection**](https://arxiv.org/abs/2601.10261)
   Xianyu Zou, Xiaoli Gong, Jin Zhang, **Shiyang Li**, Pen-Chung Yew.
   *arXiv preprint arXiv:2601.10261.* January 2026.
 
 - [**CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization**](https://arxiv.org/abs/2511.01884)
-  Zijian Zhang, Rong Wang, **Shiyang Li**, Yuebo Luo, Mingyi Hone, Caiwen Ding.
+  Zijian Zhang, Rong Wang, **Shiyang Li**, Yuebo Luo, Mingyi Hong, Caiwen Ding.
   *arXiv preprint arXiv:2511.01884.* October 2025.
 
 - [**DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs**](https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-76.pdf)
