@@ -5,9 +5,9 @@ category: preprints
 permalink: /publication/2026-08-12-sparseditto
 excerpt: "SparseDitto is an LLM-based agentic system that constructs a customized GPU kernel for each matrix, operator, and target GPU, supporting SpMV, SpMM, and SpGEMM, achieving a geometric-mean speedup of 2.68x over cuSPARSE on an RTX PRO 6000 and 2.79x on an H200."
 date: 2026-08-12
-venue: "Preprint"
-paperurl: "/files/SparseDitto.pdf"
-citation: '<b>S. Li</b>, G. Sun, J. Tang, Y. Wang, M. Hong, C. Ding. &quot;SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System.&quot; <i>Preprint</i>, 2026.'
+venue: "arXiv preprint"
+paperurl: "https://arxiv.org/abs/2608.05033"
+citation: '<b>S. Li</b>, G. Sun, J. Tang, Y. Wang, M. Hong, C. Ding. &quot;SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System.&quot; <i>arXiv preprint arXiv:2608.05033</i>, 2026.'
 header:
   teaser: "publications/SparseDitto.png"
 ---
@@ -27,6 +27,6 @@ Sparse matrix kernels are fundamental to scientific computing, graph analytics, 
 
 **Shiyang Li**, Guangyan Sun, Jinwei Tang, Yanzhi Wang, Mingyi Hong, Caiwen Ding
 
-*Preprint, 2026.*
+*arXiv preprint arXiv:2608.05033, August 2026.*
 
 ![SparseDitto System](/images/publications/SparseDitto.png){: .align-center style="max-width: 100%;"}

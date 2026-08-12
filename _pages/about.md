@@ -27,9 +27,9 @@ Recently, I have been working on **LLM training/inference optimization on GPUs**
 
 ## Publications
 
-- [**SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System**](/files/SparseDitto.pdf)
+- [**SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System**](https://arxiv.org/abs/2608.05033)
   **Shiyang Li**, Guangyan Sun, Jinwei Tang, Yanzhi Wang, Mingyi Hong, Caiwen Ding.
-  *Preprint.* August 2026.
+  *arXiv preprint arXiv:2608.05033.* August 2026.
 
 - [**GSR-GNN: Training Acceleration and Memory-Saving Framework of Deep GNNs on Circuit Graph**](/files/GSR-GNN.pdf)
   Yuebo Luo, **Shiyang Li**, Yifei Feng, Vishal Kancharla, Shaoyi Huang, Caiwen Ding.

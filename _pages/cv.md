@@ -26,7 +26,7 @@ redirect_from:
 ## Publications
 
 1. **SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System**
-   **S. Li**, G. Sun, J. Tang, Y. Wang, M. Hong, C. Ding. *Preprint*, 2026.
+   **S. Li**, G. Sun, J. Tang, Y. Wang, M. Hong, C. Ding. *arXiv:2608.05033*, 2026.
 
 2. **GSR-GNN: Training Acceleration and Memory-Saving Framework of Deep GNNs on Circuit Graph**
    Y. Luo, **S. Li**, Y. Feng, V. Kancharla, S. Huang, C. Ding. *DAC '26*, 2026.
