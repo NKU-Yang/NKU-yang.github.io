@@ -65,6 +65,7 @@
 % Remove paragraph indent
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1pt}
+\emergencystretch=2em
 
 % Tag command for keyword boxes
 \newtcbox{\tag}[1][]{%
@@ -81,22 +82,22 @@
 %----------HEADING----------
 {\LARGE\bfseries\color{darktext} Shiyang Li}\vspace{4pt}\\
 {\small
-  \faEnvelope\ \ \href{mailto:li004074@umn.edu}{li004074@umn.edu} \quad
+  \faEnvelope\ \ \href{mailto:galianli0815@gamil.com}{galianli0815@gamil.com} \quad
   \faMapMarker*\ \ Minneapolis, MN, USA \quad
   \faGithub\ \ \href{https://github.com/NKU-Yang}{github.com/NKU-Yang}
 }\\[2pt]
 {\small
   \faGlobe\ \ \href{https://NKU-Yang.github.io}{NKU-Yang.github.io} \quad
-  \faGraduationCap\ \ \href{https://scholar.google.com/citations?hl=en&user=q7EKI8MAAAAJ}{Google Scholar} \quad
+  \faGraduationCap\ \ \href{https://scholar.google.com/citations?hl=en&tzom=-480&user=q7EKI8MAAAAJ}{Google Scholar} \quad
   \faOrcid\ \ \href{https://orcid.org/0000-0003-3046-0414}{0000-0003-3046-0414}
 }\\[2pt]
 {\small
-  \textbf{Interests:}\ \ GPU Programming, Computer Architecture, Agentic MLSys, EDA, LLM Optimization\\
-  \textbf{Skills:}\ \ C/C++, CUDA, Python, Rust, Linux, Git
+  \textbf{Interests:}\ \ GPU Programming, Computer Architecture, Agentic MLSys, EDA\\
+  \textbf{Skills:}\ \ C/C++, CUDA, Python, Rust, Linux, Git, Docker, LaTeX, oneAPI/SYCL
 }
 
 %----------EDUCATION----------
-\section{\faUniversity\hspace{6pt}Education}
+\section{\texorpdfstring{\faUniversity\hspace{6pt}}{}Education}
 
 \begin{itemize}[leftmargin=1.2em, label=\textcolor{sectioncolor}{\small\faChevronRight}, itemsep=4pt]
 
@@ -112,95 +113,41 @@
 \end{itemize}
 
 %----------PUBLICATIONS----------
-\section{\faBook\hspace{6pt}Publications}
+\section{\texorpdfstring{\faBook\hspace{6pt}}{}Publications}
 
-\begin{itemize}[leftmargin=1.2em, label=\textcolor{sectioncolor}{\small\faChevronRight}, itemsep=5pt]
+\begin{itemize}[leftmargin=1.2em, label=\textcolor{sectioncolor}{\small\faChevronRight}, itemsep=3pt]
 
-  \item Yuebo Luo, \textbf{Li Shiyang}, Yifei Feng, Vishal Kancharla, Shaoyi Huang, Caiwen Ding,\\
-  ``\textbf{GSR-GNN: Training Acceleration and Memory-Saving Framework of Deep GNNs on Circuit Graph}''\\
-  \textit{In Proceedings of the 63rd ACM/IEEE Design Automation Conference (DAC '26)}, June 2026, San Francisco, USA.
+  \item Xingze Liu, Jialin Dong, Xinyu Liu, Lizhi Wang, \textbf{Shiyang Li}, Haoran Li, Xiaoli Gong, Jin Zhang, Pen-Chung Yew, ``\textbf{PagePilot: Synergizing Heterogeneous Backend Devices with Reusability-Aware Page Offloading},'' \textit{ACM Transactions on Architecture and Code Optimization (TACO)}, 2026. \href{https://NKU-Yang.github.io/files/pagepilot.pdf}{Paper}. \href{https://doi.org/10.1145/3845616}{doi:10.1145/3845616}. \href{https://github.com/NKU-EmbeddedSystem/pagepilot}{Code}.
 
-  \item \textbf{Li Shiyang}, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, Caiwen Ding,\\
-  ``\textbf{StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning}''\\
-  \textit{International Conference on Machine Learning (ICML 2026)}, accepted. arXiv:2603.02637.
+  \item \textbf{Shiyang Li}, Guangyan Sun, Jinwei Tang, Yanzhi Wang, Mingyi Hong, Caiwen Ding, ``\textbf{SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System},'' \textit{arXiv preprint \href{https://arxiv.org/abs/2608.05033}{arXiv:2608.05033}}, Aug.\ 2026.
 
-  \item \textbf{Li Shiyang}, Guangyan Sun, Jinwei Tang, Yanzhi Wang, Mingyi Hong, Caiwen Ding,\\
-  ``\textbf{SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System}''\\
-  \textit{arXiv preprint arXiv:2608.05033}, Aug.\ 2026.
+  \item Yuebo Luo, \textbf{Shiyang Li}, Yifei Feng, Vishal Kancharla, Shaoyi Huang, Caiwen Ding, ``\textbf{GSR-GNN: Training Acceleration and Memory-Saving Framework of Deep GNNs on Circuit Graph},'' \textit{In Proceedings of the 63rd ACM/IEEE Design Automation Conference (DAC '26)}, June 2026, San Francisco, USA. \href{https://NKU-Yang.github.io/files/GSR-GNN.pdf}{Paper}.
 
-  \item \textbf{Li Shiyang}, Haoyang Chen, Mattia Fazzini, Caiwen Ding,\\
-  ``\textbf{CUDABeaver: Benchmarking LLM-Based Automated CUDA Debugging}''\\
-  \textit{arXiv preprint arXiv:2605.08455}, May 2026.
+  \item \textbf{Shiyang Li}, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, Caiwen Ding, ``\textbf{StitchCUDA: An Automated Multi-Agents End-to-End GPU Programming Framework with Rubric-based Agentic Reinforcement Learning},'' \textit{International Conference on Machine Learning (ICML 2026)}. \href{https://arxiv.org/abs/2603.02637}{arXiv:2603.02637}. \href{https://github.com/NKU-Yang/StitchCUDA}{Code}.
 
-  \item \textbf{Li Shiyang}, Zijian Zhang, Guangyan Sun, Yuebo Luo, Winson Chen, Yanzhi Wang, Mingyi Hong, Caiwen Ding,\\
-  ``\textbf{CUDAHercules: Benchmarking Hardware-Aware Expert-level CUDA Optimization for LLMs}''\\
-  \textit{arXiv preprint arXiv:2605.08467}, May 2026.
+  \item \textbf{Shiyang Li}, Haoyang Chen, Mattia Fazzini, Caiwen Ding, ``\textbf{CUDABeaver: Benchmarking LLM-Based Automated CUDA Debugging},'' \textit{arXiv preprint \href{https://arxiv.org/abs/2605.08455}{arXiv:2605.08455}}, May 2026. \href{https://github.com/HaoyangChen23/CUDABeaver}{Code}.
 
-  \item Ben Mechels, Ryan Billmeyer, Alexander Chen, \textbf{Li Shiyang}, Caiwen Ding,\\
-  ``\textbf{FPTC: A Fast Parallel Transform-based Codec for Efficient Asymmetric Signal Compression}''\\
-  \textit{arXiv preprint arXiv:2605.01086}, May 2026.
+  \item \textbf{Shiyang Li}, Zijian Zhang, Guangyan Sun, Yuebo Luo, Winson Chen, Yanzhi Wang, Mingyi Hong, Caiwen Ding, ``\textbf{CUDAHercules: Benchmarking Hardware-Aware Expert-level CUDA Optimization for LLMs},'' \textit{arXiv preprint \href{https://arxiv.org/abs/2605.08467}{arXiv:2605.08467}}, May 2026.
 
-  \item Zijian Zhang, Rong Wang, \textbf{Li Shiyang}, Yuebo Luo, Mingyi Hong, Caiwen Ding,\\
-  ``\textbf{CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization}''\\
-  \textit{arXiv preprint arXiv:2511.01884}, Oct.\ 2025.
+  \item Ben Mechels, Ryan Billmeyer, Alexander Chen, \textbf{Shiyang Li}, Caiwen Ding, ``\textbf{FPTC: A Fast Parallel Transform-based Codec for Efficient Asymmetric Signal Compression},'' \textit{arXiv preprint \href{https://arxiv.org/abs/2605.01086}{arXiv:2605.01086}}, May 2026.
 
-  \item Yuebo Luo, \textbf{Li Shiyang}, Junran Tao, Kiran Gautam Thorat, Xi Xie, Hongwu Peng, Nuo Xu, Caiwen Ding, Shaoyi Huang,\\
-  ``\textbf{DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs}''\\
-  \textit{In Proceedings of the 39th ACM International Conference on Supercomputing (ICS '25)}, June 2025, Salt Lake City, USA.
+  \item Zijian Zhang, Rong Wang, \textbf{Shiyang Li}, Yuebo Luo, Mingyi Hong, Caiwen Ding, ``\textbf{CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization},'' \textit{arXiv preprint \href{https://arxiv.org/abs/2511.01884}{arXiv:2511.01884}}, Oct.\ 2025.
 
-  \item \textbf{Li Shiyang}, Tang Ruiqi, Zhu Jingyu, Zhao Ziyi, Gong Xiaoli, Wang Wenwen, Zhang Jin, and Yew Pen-Chung,\\
-  ``\textbf{Liberator: A Data Reuse Framework for Out-of-Memory Graph Computing on GPUs}''\\
-  \textit{IEEE Transactions on Parallel and Distributed Systems}, June 2023, doi:10.1109/TPDS.2023.3268662.
+  \item Yuebo Luo, \textbf{Shiyang Li}, Junran Tao, Kiran Gautam Thorat, Xi Xie, Hongwu Peng, Nuo Xu, Caiwen Ding, Shaoyi Huang, ``\textbf{DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs},'' \textit{In Proceedings of the 39th ACM International Conference on Supercomputing (ICS '25)}, June 2025, Salt Lake City, USA. \href{https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-76.pdf}{Paper}.
 
-  \item \textbf{Li Shiyang}, Zhu J., Han Jiaxun, Peng Yuting, Wang Zhuoran, Gong Xiaoli, Wang Gang, Zhang Jin, Wang X.,\\
-  ``\textbf{OneGraph: a cross-architecture framework for large-scale graph computing on GPUs based on oneAPI}''\\
-  \textit{CCF Transactions on High Performance Computing}, Nov.\ 2023, doi:10.1007/s42514-023-00172-w.
+  \item \textbf{Shiyang Li}, Ruiqi Tang, Jingyu Zhu, Ziyi Zhao, Xiaoli Gong, Wenwen Wang, Jin Zhang, Pen-Chung Yew, ``\textbf{Liberator: A Data Reuse Framework for Out-of-Memory Graph Computing on GPUs},'' \textit{IEEE Transactions on Parallel and Distributed Systems (TPDS)}, 34(6):1954--1967, 2023. \href{https://github.com/NKU-Yang/Liberator}{Code}.
 
-\end{itemize}
-
-%----------RESEARCH EXPERIENCE----------
-\section{\faFlask\hspace{6pt}Research Experience}
-
-\begin{itemize}[leftmargin=1.2em, label=\textcolor{sectioncolor}{\small\faChevronRight}, itemsep=6pt]
-
-  \item \textbf{CUDA Agentic Systems for GPU Programming and Optimization} \hfill \textbf{Advisor: Prof.\ Caiwen Ding}\\
-  \textbf{Related publications: StitchCUDA, SparseDitto, CUDAHercules, CUDABeaver, CudaForge} \hfill MAY.2025 -- Present\\[2pt]
-  \tag{Agentic MLSys}\enspace \tag{CUDA Programming}\enspace \tag{CUDA Optimization}\enspace \tag{GPU Profiling}\\[2pt]
-  \begin{itemize}[nosep, leftmargin=1em, label={\textemdash}]
-    \item Led multi-agent workflows for end-to-end CUDA program generation, optimization, verification, and profiling.
-    \item Incorporated rubric-based agentic reinforcement learning and hardware feedback to improve CUDA optimization quality.
-    \item Built benchmarks for LLM-based CUDA debugging and expert-level hardware-aware CUDA optimization.
-  \end{itemize}
-
-  \item \textbf{GPU Graph Computing and EDA-Oriented GNN Acceleration} \hfill \textbf{Advisors: Prof.\ Caiwen Ding, Prof.\ Gong Xiaoli, Prof.\ Pen-Chung Yew}\\
-  \textbf{Related publications: GSR-GNN, DR-CircuitGNN, Liberator, OneGraph} \hfill 2021 -- Present\\[2pt]
-  \tag{Graph Computing}\enspace \tag{EDA}\enspace \tag{GNN Acceleration}\enspace \tag{GPU Memory Management}\\[2pt]
-  \begin{itemize}[nosep, leftmargin=1em, label={\textemdash}]
-    \item Developed GPU-accelerated graph and GNN systems for circuit graph learning and heterogeneous circuit graph workloads.
-    \item Designed data reuse and memory-management techniques for out-of-memory graph computing on GPUs.
-    \item Explored cross-architecture graph computing with oneAPI and large-scale dynamic temporal graph processing on distributed multi-GPUs.
-  \end{itemize}
-
-  \item \textbf{GPU-Accelerated Signal Compression} \hfill \textbf{Advisor: Prof.\ Caiwen Ding}\\
-  \textbf{Related publication: FPTC} \hfill 2026\\[2pt]
-  \tag{Parallel Compression}\enspace \tag{GPU Decoder}\enspace \tag{Signal Processing}\\[2pt]
-  \begin{itemize}[nosep, leftmargin=1em, label={\textemdash}]
-    \item Contributed to a high-throughput asymmetric signal codec with a lightweight encoder and massively parallel GPU decoder.
-    \item Optimized transform-based decompression throughput while preserving reconstruction quality across multiple signal domains.
-  \end{itemize}
+  \item \textbf{Shiyang Li}, Jingyu Zhu, Jiaxun Han, Yuting Peng, Zhuoran Wang, Xiaoli Gong, Gang Wang, Jin Zhang, Xuqiang Wang, ``\textbf{OneGraph: A Cross-Architecture Framework for Large-Scale Graph Computing on GPUs Based on oneAPI},'' \textit{CCF Transactions on High Performance Computing (CCF-THPC)}, 6(2):179--191, 2024.
 
 \end{itemize}
 
 %----------TEACHING EXPERIENCE----------
-\section{\faChalkboardTeacher\hspace{6pt}Teaching Experience}
+\section{\texorpdfstring{\faChalkboardTeacher\hspace{6pt}}{}Teaching Experience}
 
 \begin{itemize}[leftmargin=1.2em, label=\textcolor{sectioncolor}{\small\faChevronRight}, itemsep=5pt]
 
   \item \textbf{Teaching Assistant of Computer Architecture (CSCI 4203)} \hfill Fall 2025\\
   {\small University of Minnesota-Twin Cities. Responsible for leading discussion sections and grading assignments on CPU pipelining, caching, and memory hierarchy.}
-
-  \item \textbf{Teaching Assistant of Operating System} \hfill Autumn 2020, 2021, 2022\\
-  {\small Responsible for teaching experimental courses and guiding junior undergraduate students in mastering the essential concepts of the Linux system and virtual machines. Supported students in developing a toy OS, with emphasis on managing threads, processes, memory, and the file system.}
 
   \item \textbf{Teaching Assistant of Principles of Computer Organization} \hfill Spring 2023\\
   {\small Responsible for teaching experimental courses; assisted students in gradually learning how to use Verilog to implement a 5-level pipeline CPU.}
@@ -208,21 +155,25 @@
   \item \textbf{Teaching Assistant of Introduction to Parallel Programming} \hfill Spring 2022\\
   {\small Responsible for teaching programming courses; taught students how to code with CUDA on NVIDIA GPUs and implemented the Gauss Elimination algorithm with CUDA.}
 
+  \item \textbf{Teaching Assistant of Operating System} \hfill Autumn 2020, 2021, 2022\\
+  {\small Responsible for teaching experimental courses and guiding junior undergraduate students in mastering Linux systems and virtual machines. Supported students in developing a toy OS, with emphasis on threads, processes, memory, and file systems.}
+
 \end{itemize}
 
 %----------WORK EXPERIENCE----------
-\section{\faBriefcase\hspace{6pt}Work Experience}
+\section{\texorpdfstring{\faBriefcase\hspace{6pt}}{}Work Experience}
 
 \textbf{Alibaba Cloud, Shanghai, China}\\
 System Engineer Intern \hfill JUL.2021 -- SEPT.2021\\
 \textit{Container and OS kernel development with Rust}
 \begin{itemize}[nosep, leftmargin=1.2em, label=\textcolor{sectioncolor}{\small\faChevronRight}]
-  \item Developed Linux kernel with Rust. Mapped device memory between the Host and Hypervisor with MMIO.
-  \item Implemented passthrough and hotplug of the NVIDIA GPU in the container with VirtIO.
+  \item Developed Linux kernel modules with Rust for security containers.
+  \item Reworked the PCIe device registry process in Hypervisor and mapped device memory through MMIO.
+  \item Implemented NVIDIA GPU passthrough and hot-plug support in security containers with VirtIO.
 \end{itemize}
 
 %----------AWARDS----------
-\section{\faTrophy\hspace{6pt}Awards}
+\section{\texorpdfstring{\faTrophy\hspace{6pt}}{}Awards}
 
 \begin{tabularx}{\textwidth}{@{}Xr@{}}
   China National Scholarship (only one in college per year) & DEC.2023 \\
