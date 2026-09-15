@@ -28,7 +28,7 @@ redirect_from:
 1. **PagePilot: Synergizing Heterogeneous Backend Devices with Reusability-Aware Page Offloading**
    X. Liu, J. Dong, X. Liu, L. Wang, **S. Li**, H. Li, X. Gong, J. Zhang, P.-C. Yew. *ACM Transactions on Architecture and Code Optimization (TACO)*, 2026.
 
-2. **SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System**
+2. **SparseDitto: An Agentic Sparse Compilation Framework through Architecture-Aware Synthesis on GPUs**
    **S. Li**, G. Sun, J. Tang, Y. Wang, M. Hong, C. Ding. *arXiv:2608.05033*, 2026.
 
 3. **GSR-GNN: Training Acceleration and Memory-Saving Framework of Deep GNNs on Circuit Graph**

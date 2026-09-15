@@ -31,7 +31,7 @@ Recently, I have been working on **LLM training/inference optimization on GPUs**
   Xingze Liu, Jialin Dong, Xinyu Liu, Lizhi Wang, **Shiyang Li**, Haoran Li, Xiaoli Gong, Jin Zhang, Pen-Chung Yew.
   *ACM Transactions on Architecture and Code Optimization (TACO).* 2026.
 
-- [**SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System**](https://arxiv.org/abs/2608.05033)
+- [**SparseDitto: An Agentic Sparse Compilation Framework through Architecture-Aware Synthesis on GPUs**](https://arxiv.org/abs/2608.05033)
   **Shiyang Li**, Guangyan Sun, Jinwei Tang, Yanzhi Wang, Mingyi Hong, Caiwen Ding.
   *arXiv preprint arXiv:2608.05033.* August 2026.
 
